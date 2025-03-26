@@ -27,8 +27,8 @@ class Index
      */
     public function index(): Html
     {
-        # html路径: ../view/index.html
-        return response(file_get_contents(dirname(dirname(__FILE__)).'/view/index.html'));
+        
+        echo 'ffffffffffffff'; 
     }
 
 
